@@ -15,9 +15,9 @@ plt.plot(x, y1, label="sin")
 plt.plot(x, y2, linestyle = "--", label="cos")
 
 ## x 標
-plt.xlabel("x")
+plt.xlabel("x axis")
 # y 標 
-plt.ylabel("y")
+plt.ylabel("y axis")
 
 # 主題
 plt.title("sin kah cos")
