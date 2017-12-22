@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 def step_function(x):
-    y = x > 0
-    return y.astype(np.int)
+    return np.array( x > 0, dtype=np.int)
 
 import numpy as np
 import matplotlib.pylab as plt
