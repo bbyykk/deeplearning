@@ -17,18 +17,16 @@ img3 = None
 for i in range(20):
     img = x_train[i]
     label = t_train[i]
-    print(label)  # 5
+    print(label)  # 印出這張ê真正數字
     
     if i == 0:
         img3 = img
     else:
         img3 = np.append(img3, img)
 
-    xasis = 28 + xasis
+    xasis = 28 + xasis # x 杆一直疊起--lih
 
-img3 = img3.reshape(xasis, 28)  # 形状を元の画像サイズに変形
+img3 = img3.reshape(xasis, 28)  # 共伊tsiânn-tsuè 二維陣列, 予 img_show 用
 print(img3.shape)  # (28, 28)
-
-
 
 img_show(img3)
